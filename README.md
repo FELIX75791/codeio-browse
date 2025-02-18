@@ -6,7 +6,7 @@ First download the JSONL data from https://huggingface.co/datasets/hkust-nlp/Cod
 
 ## Through SQLite and Datasette for a Browser-based GUI (Recomended)
 
-1. Change the file path in line 19 of db_setup.py
+1. Change the file path in line 22 of db_setup.py
 2. python3 db_setup.py (This will generate mydb.sqlite)
 3. pip install datasette
 4. datasette mydb.sqlite
